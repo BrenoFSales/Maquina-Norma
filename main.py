@@ -1,7 +1,7 @@
 class MaquinaNorma:
-    def __init__(self, A=0, B=0, C=0, D=0):
+    def __init__(self, A=0, B=0, C=0, D=0, E=0, F=0, G=0, H=0):
         # Inicializa os registradores com os valores fornecidos ou 0 por padrão
-        self.registradores = {'A': A, 'B': B, 'C': C, 'D': D}
+        self.registradores = {'A': A, 'B': B, 'C': C, 'D': D, 'E': E, 'F': F, 'G': G, 'H': H}
 
     def add(self, reg):
         """Incrementa o valor do registrador em 1."""
