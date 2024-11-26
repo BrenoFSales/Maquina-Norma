@@ -98,10 +98,6 @@ def fatorial(maquina, reg_a, reg_b, reg_c, reg_d):
     ]
     maquina.executar_programa(programa)
 
-
-    
-
-
 # Carregar o programa de um arquivo
 def carregar_programa(arquivo):
     """Carrega as instruções de um arquivo."""
